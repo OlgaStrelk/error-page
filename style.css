@@ -1,0 +1,51 @@
+body, h1, h2, p {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+body {
+    color: #2f80ed;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+  }
+
+.picture {
+    width: 520px;
+    height: 190px;
+    margin: 110px auto 10px;
+}
+
+.core
+{
+    width: 420px;
+    height: 140px;
+    text-align: center;
+    margin: auto;
+}
+
+.visible
+{
+    font-size: 120px;
+    margin-bottom: 22px;
+}
+
+
+.popup
+{
+    opacity: 0;
+}
+
+.visible:hover+.popup
+{
+    opacity: 1;
+}
+
+.return
+{
+    margin-top: 280px;
+    margin-bottom: 30px;
+}
+
+.homepagelink
+{
+    text-align: center;
+}
